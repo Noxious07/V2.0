@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, Arial;
+  box-sizing: border-box;
+}
+
+/* sticky header  */
+
+.header {  
+  background-color: #000814;
+  justify-content: center;
+  padding: 18px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  font-size: 22px;
+}
+
+#lne{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font
+}
+
+body {
+  background-color: #001d3d;
+  color: white;
+}
+
+
+
+.hom,
+.abt,
+.prj,
+.skl,
+.cnt {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.hom::after,
+.abt::after,
+.prj::after,
+.skl::after,
+.cnt::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #fca311;
+  transition: width .2s;
+}
+
+.hom:hover::after,
+.abt:hover::after,
+.prj:hover::after,
+.skl:hover::after,
+.cnt:hover::after {
+  width: 100%;
+}
