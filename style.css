@@ -7,9 +7,11 @@
 
 /* sticky header  */
 
-.header {  
-  background-color: #000814;
-  justify-content: center;
+.header {
+  background-color: #1f1f3d;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
   padding: 18px;
   text-align: right;
   position: fixed;
@@ -18,25 +20,75 @@
   z-index: 1000;
 }
 
-.main{
+/* logo area */
+.logo {
+      display: flex;
+      align-items: center;
+    }
+.logo img {
+      width: 50px;
+      height: 50px;
+      display: block;
+    }
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* main content area my name  */
+
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 97vh;
   text-align: center;
   font-size: 22px;
 }
 
-#lne{
+#lne {
   margin: 10px;
   font-size: 20px;
   font-weight: bold;
   font
 }
 
+/* intro area*/
+#about{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+
+}
+}
+
+.photo{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+  margin-right: 300px;
+}
+
+.statement{
+  margin: 20px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+
+/* body */
 body {
-  background-color: #001d3d;
+  background-color:#0f0f1e;
   color: white;
 }
 
@@ -50,7 +102,8 @@ body {
   color: white;
   text-decoration: none;
   margin-right: 20px;
-  margin-left: 20px;;
+  margin-left: 20px;
+  ;
   font-weight: bold;
   cursor: pointer;
   position: relative;
