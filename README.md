@@ -3,7 +3,7 @@
 <h3 align="center">💻 Web Developer | Designer | Creator</h3>
 
 <p align="center">
-  <img src="https://github.com/Noxious07/Noxious07/blob/main/assests/Gemini_Generated_Image_95oq4o95oq4o95oq-modified.png" alt="logo" width="120"/>
+  <img src="https://jumpshare.com/s/CnlkI4jOuF9ss8g0DXpi" alt="logo" width="120"/>
 </p>
 
 ---
