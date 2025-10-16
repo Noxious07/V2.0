@@ -22,14 +22,15 @@
 
 /* logo area */
 .logo {
-      display: flex;
-      align-items: center;
-    }
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-      width: 50px;
-      height: 50px;
-      display: block;
-    }
+  width: 50px;
+  height: 50px;
+  display: block;
+}
 
 nav {
   display: flex;
@@ -39,7 +40,7 @@ nav {
 
 /* main content area my name  */
 
-.main {
+#hero {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,11 +54,97 @@ nav {
   margin: 10px;
   font-size: 20px;
   font-weight: bold;
-  font
+  font-family: Arial, sans-serif;
 }
 
+#gmail,
+#insta,
+#linkedin,
+#twitter {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -260px;
+  margin-bottom: 250px;
+  padding: 10px;
+  gap: 20px
+}
+
+#gmail img {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#insta img {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#Git img {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#twitter img {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+
+
+#linkedin img {
+  width: 30px;
+  height: 30px;
+  background-color: lightblue;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  padding-left: 4.5px;
+  padding-right: 3px;
+  margin-left: 2px;
+}
+
+#gmail img:hover,
+#insta img:hover,
+#Git img:hover,
+#twitter img:hover,
+#linkedin img:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+  box-shadow: 0 0 8px rgba(80, 1, 1, 0.6);
+}
+
+
+
+
+
+
 /* intro area*/
-#about{
+#about {
   text-align: center;
   padding: 20px;
   font-size: 20px;
@@ -66,9 +153,9 @@ nav {
 
 
 }
-}
 
-.photo{
+
+.photo {
   display: flex;
   justify-content: center;
   width: 300px;
@@ -78,7 +165,7 @@ nav {
   margin-right: 300px;
 }
 
-.statement{
+.statement {
   margin: 20px;
   font-size: 18px;
   text-align: center;
@@ -88,7 +175,7 @@ nav {
 
 /* body */
 body {
-  background-color:#0f0f1e;
+  background-color: #0f0f1e;
   color: white;
 }
 
