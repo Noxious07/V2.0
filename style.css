@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* sticky header  */
+/* Header Styles */
 
 .header {
   background-color: #1f1f3d;
@@ -21,21 +23,29 @@
 }
 
 /* logo area */
+
 .logo {
   display: flex;
   align-items: center;
+
 }
 
+/* logo image */
+
 .logo img {
+  display: block;
   width: 50px;
   height: 50px;
-  display: block;
+  border-radius: 50%;
+  
 }
+
+/* Navigation Styles */
 
 nav {
   display: flex;
   gap: 10px;
-  align-items: center;
+  align-items: center
 }
 
 /* main content area my name  */
@@ -47,11 +57,12 @@ nav {
   justify-content: center;
   height: 97vh;
   text-align: center;
-  font-size: 22px;
+  font-size: 30px;
 }
 
+/* line */
 #lne {
-  margin: 10px;
+  margin: 30px;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, sans-serif;
@@ -70,63 +81,76 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -260px;
+  margin-top: -240px;
   margin-bottom: 250px;
   padding: 10px;
-  gap: 20px
+  gap: 12px;
 }
 
 #gmail img {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
+   width: 40px;
+  height: 40px;
   transition: transform 0.3s;
   border-radius: 50%;
-  padding-left: 2px;
-  padding-right: 2px;
+  background: #141428;
+  /* slightly lighter than background */
+  border-radius: 50%;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
 
 #insta img {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s;
   border-radius: 50%;
-  padding-left: 2px;
-  padding-right: 2px;
+  background: #141428;
+  /* slightly lighter than background */
+  border-radius: 50%;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
 
 #Git img {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
+ width: 40px;
+  height: 40px;
   transition: transform 0.3s;
   border-radius: 50%;
-  padding-left: 2px;
-  padding-right: 2px;
+  background: #141428;
+  /* slightly lighter than background */
+  border-radius: 50%;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
 
 #twitter img {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s;
   border-radius: 50%;
-  padding-left: 2px;
-  padding-right: 2px;
-
+  background: #141428;
+  /* slightly lighter than background */
+  border-radius: 50%;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
 
 
 #linkedin img {
-  width: 30px;
-  height: 30px;
-  background-color: lightblue;
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s;
   border-radius: 50%;
-  padding-left: 4.5px;
-  padding-right: 3px;
-  margin-left: 2px;
+  background: #141428;
+  /* slightly lighter than background */
+  border-radius: 50%;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
 
 #gmail img:hover,
@@ -134,8 +158,10 @@ nav {
 #Git img:hover,
 #twitter img:hover,
 #linkedin img:hover {
-  transform: scaleX(1.1) scaleY(1.1);
-  box-shadow: 0 0 8px rgba(80, 1, 1, 0.6);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(0, 168, 232, 0.3);
+  color: #00A8E8;
 }
 
 
@@ -145,31 +171,35 @@ nav {
 
 /* intro area*/
 #about {
-  text-align: center;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1000px;
+}
 
 .photo {
-  display: flex;
-  justify-content: center;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  flex-shrink: 0;
+}
 
-  margin-right: 300px;
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .statement {
-  margin: 20px;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6;
+  flex: 1;
+  padding: 20px;
 }
 
 
@@ -180,42 +210,42 @@ body {
 }
 
 
+nav {/* your dark bg */
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between menu items */
 
-.hom,
-.abt,
-.prj,
-.skl,
-.cnt {
+}
+
+nav a {
+  position: relative;
   color: white;
   text-decoration: none;
-  margin-right: 20px;
-  margin-left: 20px;
-  ;
-  font-weight: bold;
-  cursor: pointer;
-  position: relative;
-  padding-bottom: 5px;
+  font-weight: 600;
+  padding: 8px 15px; /* inner padding */
+  transition: background 0.3s ease;
 }
 
-.hom::after,
-.abt::after,
-.prj::after,
-.skl::after,
-.cnt::after {
+/* Hover background */
+nav a:hover {
+  background: #fca311; /* orange */
+  border-radius: 4px;
+}
+
+/* Underline effect */
+nav a::after {
   content: '';
   position: absolute;
-  height: 2px;
-  left: 0;
-  bottom: 0;
+  left: 100%;
+  bottom: -8px; /* creates the GAP you want */
   width: 0;
-  background-color: #fca311;
-  transition: width .2s;
+  height: 3px;
+  background: #fca311;
+  transition: all 0.3s ease;
 }
 
-.hom:hover::after,
-.abt:hover::after,
-.prj:hover::after,
-.skl:hover::after,
-.cnt:hover::after {
+/* Animate line from right to left */
+nav a:hover::after {
+  left: 0;
   width: 100%;
 }
