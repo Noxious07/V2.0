@@ -220,7 +220,6 @@ nav a:hover::after {
   /* to avoid overlap with fixed header */
   text-align: left;
   padding: 3px;
- 
   padding-left: 50px;
 }
 

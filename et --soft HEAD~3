@@ -1,0 +1,36 @@
+[33mcommit 795d6b0c30136f6afc7badcd4b9ef03c61bc0494[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: d056943 849a7ac
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Sat Oct 18 14:13:16 2025 +0530
+
+    Merge branch 'main' of https://github.com/Noxious07/V2.0
+
+[33mcommit d056943f2540dba107a7bfd95ecc915f7ccfe508[m
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Sat Oct 18 14:10:20 2025 +0530
+
+    Stop tracking assets directory for privacy reasons
+
+[33mcommit 419c5ae6519a9b5194bfbfe3bdfc20dbea7858ab[m
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Sat Oct 18 11:34:37 2025 +0530
+
+    Update: Logo and fevicon resign icon
+
+[33mcommit e316a63ee75435faf6a53752fa621db896e0f290[m
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Sat Oct 18 01:01:11 2025 +0530
+
+    Update: Home, about adjusted, pages update
+
+[33mcommit f187f229349126dcdae3f903ef02c70fb8277e31[m
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Fri Oct 17 15:20:24 2025 +0530
+
+    Update: Navbutton hover effect, all pages header & linking of pages
+
+[33mcommit 4bdeb729b0d132dac3f7323aa04a11b11d068c71[m
+Author: Fahad Siddiqui <fahadsiddiqui36238@gmail.com>
+Date:   Thu Oct 16 22:43:35 2025 +0530
+
+    Update: social media buttons midel side with hover effect
