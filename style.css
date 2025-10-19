@@ -213,15 +213,15 @@ nav a:hover::after {
 #abt h2 {
   font-family: 'Spectral';
   background-color: #071221;
-  box-shadow: 0 0 30px 1px rgba(76, 80, 127, 0.2);
+  box-shadow: 0 0 30px 1px rgb(21, 26, 78, 0.6);
   position: absolute;
   text-align: end;
   color: orange;
   font-size: 40px;
-  margin-right: 470px;
+  margin-right: 448px;
   right: 0;
   top: -70px;
-  padding: 2px 14px 2px 14px;
+  padding: 2px 20px 2px 20px;
   border-radius: 12px;
 }
 
@@ -248,19 +248,22 @@ nav a:hover::after {
   font-weight: bold;
 }
 
-.image{
+.image {
   margin-top: 103px;
   margin-left: 100px;
   right: 0;
 
 }
+
 img {
-      width: 350px;
-      height: 450px;
-      border-radius: 15px;
-      justify-content: center;
-      box-shadow: 0 10px 30px rgba(181, 168, 168, 0.3), 
-                  0 0 20px rgba(60, 66, 124, 0.3);
-      object-fit: cover;
-      transition: transform 0.3s ease;
+  width: 350px;
+  height: 450px;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: #071221;
+  box-shadow: 0 0 30px 1px rgb(21, 26, 78, 0.6);
+  /* box-shadow: 0 10px 30px rgba(181, 168, 168, 0.3), 
+                  0 0 20px rgba(60, 66, 124, 0.3); */
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
