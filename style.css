@@ -3,8 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif, Arial;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header Styles */
@@ -27,7 +27,6 @@
 .logo {
   display: flex;
   align-items: center;
-
 }
 
 /* logo image */
@@ -37,7 +36,6 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-
 }
 
 /* Navigation Styles */
@@ -45,19 +43,34 @@
 nav {
   display: flex;
   gap: 10px;
-  align-items: center
+  align-items: center;
 }
 
 /* main content area my name  */
+
+/* body */
+body {
+  background-color: #0f0f1e;
+  color: white;
+  height: 100%;
+}
 
 #hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  /* min-height: 90vh; */
   text-align: center;
   font-size: 30px;
+  margin-top: 86px;
+  padding-top: 40px;
+  margin-top: 250px;
+}
+
+#hero h1,
+span {
+  font-family: 'Spectral';
 }
 
 /* line */
@@ -70,19 +83,19 @@ nav {
 
 #gmail,
 #insta,
+#Git,
 #linkedin,
 #twitter {
   display: inline-block;
   margin: 0 10px;
+  margin-top: 80px;
 }
-
 
 .social-media {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -240px;
-  margin-bottom: 250px;
+  margin-bottom: 0;
   padding: 10px;
   gap: 12px;
 }
@@ -93,8 +106,6 @@ nav {
   transition: transform 0.3s;
   border-radius: 50%;
   background: #141428;
-  /* slightly lighter than background */
-  border-radius: 50%;
   padding: 3px;
   transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
@@ -106,8 +117,6 @@ nav {
   transition: transform 0.3s;
   border-radius: 50%;
   background: #141428;
-  /* slightly lighter than background */
-  border-radius: 50%;
   padding: 3px;
   transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
@@ -119,8 +128,6 @@ nav {
   transition: transform 0.3s;
   border-radius: 50%;
   background: #141428;
-  /* slightly lighter than background */
-  border-radius: 50%;
   padding: 3px;
   transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
@@ -132,13 +139,10 @@ nav {
   transition: transform 0.3s;
   border-radius: 50%;
   background: #141428;
-  /* slightly lighter than background */
-  border-radius: 50%;
   padding: 3px;
   transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
 }
-
 
 #linkedin img {
   width: 40px;
@@ -146,8 +150,6 @@ nav {
   transition: transform 0.3s;
   border-radius: 50%;
   background: #141428;
-  /* slightly lighter than background */
-  border-radius: 50%;
   padding: 3px;
   transition: all 0.3s ease;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
@@ -164,18 +166,10 @@ nav {
   color: #00A8E8;
 }
 
-/* body */
-body {
-  background-color: #0f0f1e;
-  color: white;
-}
-
 nav {
   display: flex;
   justify-content: center;
   gap: 20px;
-  /* space between menu items */
-
 }
 
 nav a {
@@ -184,14 +178,12 @@ nav a {
   text-decoration: none;
   font-weight: 600;
   padding: 8px 15px;
-  /* inner padding */
   transition: background 0.3s ease;
 }
 
 /* Hover background */
 nav a:hover {
   background: #fca311;
-  /* orange */
   border-radius: 4px;
 }
 
@@ -201,7 +193,6 @@ nav a::after {
   position: absolute;
   left: 100%;
   bottom: -8px;
-  /* creates the GAP you want */
   width: 0;
   height: 3px;
   background: #fca311;
@@ -215,27 +206,42 @@ nav a:hover::after {
 }
 
 .about-section {
-  
-  margin-top: 200px;
-  /* to avoid overlap with fixed header */
-  text-align: left;
-  padding: 3px;
-  padding-left: 50px;
+  position: relative;
+  top: 130px;
+}
+
+#abt h2 {
+  font-family: 'Spectral';
+  background-color: #0f0f1e;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  left: 0;
+  top: -15px;
+  margin-left: 210px;
+  padding: 2px 10px 2px 10px;
+  border-radius: 20px;
 }
 
 .statement {
-  /* background-color:orange ; */
-  margin-right: 300px;
-  margin-left: 200px;
-  padding-right: 60px;
-  padding-left: 30px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  position: absolute;
+  font-size: 16px;
+  right: 30px;
+  text-align: end;
+  top: 230px;
+  left: 800px;
+  padding: 20px 20px 20px 32px;
+  background-color: #071221;
+  box-shadow: 0 0 35px 3px rgb(21, 26, 78);
+  border-radius: 20px;
 }
 
-.about-section h2 {
-  color: white;
-  font-size: 36px;
-  margin-bottom: 100px;
+.statement p {
+  font-family: 'Spectral';
+}
 
+.statement p strong {
+  font-family: 'Spectral';
+  color: #fca311;
+  font-weight: bold;
 }
