@@ -1,11 +1,14 @@
 /* Global Styles */
 
+/* Universal  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Home Page beggining  */
 
 /* Header Styles */
 
@@ -42,8 +45,41 @@
 
 nav {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  transition: background 0.3s ease;
+}
+
+/* Hover background */
+nav a:hover {
+  background: #fca311;
+  border-radius: 4px;
+}
+
+/* Underline effect */
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  bottom: -8px;
+  width: 0;
+  height: 3px;
+  background: #fca311;
+  transition: all 0.3s ease;
+}
+
+/* Animate line from right to left */
+nav a:hover::after {
+  left: 0;
+  width: 100%;
 }
 
 /* main content area my name  */
@@ -68,6 +104,7 @@ body {
   margin-top: 250px;
 }
 
+/* name heading  */
 #hero h1,
 span {
   font-family: 'Spectral';
@@ -80,6 +117,8 @@ span {
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
+
+/* Social media icons */
 
 #gmail,
 #insta,
@@ -166,44 +205,9 @@ span {
   color: #00A8E8;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
+/* Home Page ending  */
 
-nav a {
-  position: relative;
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 8px 15px;
-  transition: background 0.3s ease;
-}
-
-/* Hover background */
-nav a:hover {
-  background: #fca311;
-  border-radius: 4px;
-}
-
-/* Underline effect */
-nav a::after {
-  content: '';
-  position: absolute;
-  left: 100%;
-  bottom: -8px;
-  width: 0;
-  height: 3px;
-  background: #fca311;
-  transition: all 0.3s ease;
-}
-
-/* Animate line from right to left */
-nav a:hover::after {
-  left: 0;
-  width: 100%;
-}
+/* About Page starting  */
 
 .about-section {
   position: relative;
@@ -238,7 +242,6 @@ nav a:hover::after {
 }
 
 
-
 .statement p {
   font-family: 'Spectral';
 }
@@ -248,6 +251,7 @@ nav a:hover::after {
   color: #fca311;
   font-weight: bold;
 }
+
 
 .image {
   margin-top: 103px;
@@ -268,15 +272,18 @@ img {
   transition: transform 0.3s ease;
 }
 
+/* About Page ending  */
+
+/* Skill Section begging*/
+
 .skill-section {
   position: flex;
   top: 130px;
-  /* font-family: 'Open+Sans'; */
 }
 
 
 #Skill-heading {
-  /* background-color: aqua; */
+
   font-family: 'Open+Sans';
   color: #071221;
   font-size: 30px;
@@ -285,9 +292,11 @@ img {
   text-align: center;
   font-weight: bold;
   top: 180px;
-  /* text-shadow: 2px #071221; */
+
 
 }
+
+/* Frontend  card */
 
 .frt-container {
   background: linear-gradient(to top, #000000, rgb(52, 50, 199));
@@ -308,7 +317,6 @@ img {
 }
 
 #Frt h3 {
-  /* background-color: orange; */
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
@@ -319,7 +327,6 @@ img {
 
 #html {
   text-align: left;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px 6px 20px;
   margin-right: 135px;
@@ -330,7 +337,6 @@ img {
 
 #css {
   text-align: right;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px 6px 20px;
   margin-right: 0px;
@@ -367,7 +373,7 @@ img {
   opacity: 1.1;
 }
 
-
+/* Framework card */
 
 .Frame-container {
   background: linear-gradient(to top, #000000, rgb(52, 50, 199));
@@ -400,7 +406,6 @@ img {
 
 #rct {
   text-align: left;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px 6px 20px;
   margin-right: 135px;
@@ -411,7 +416,6 @@ img {
 
 #Dj {
   text-align: right;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px 6px 20px;
   margin-right: -10px;
@@ -446,6 +450,7 @@ img {
   opacity: 1.1;
 }
 
+/* Backend card */
 .backend-container {
   background: linear-gradient(to top, #000000, rgb(52, 50, 199));
   text-align: center;
@@ -488,7 +493,6 @@ img {
 
 #jv {
   text-align: left;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px 6px 20px;
   margin-right: 140px;
@@ -499,7 +503,6 @@ img {
 
 #g {
   text-align: center;
-  /* margin-right: 20vh; */
   background: #2f2db4;
   padding: 6px 20px;
   margin-left: 160px;
@@ -521,3 +524,5 @@ img {
   border-radius: 7px;
   box-shadow: 1px 1px 12px 2px rgb(0, 0, 0);
 }
+
+/* Skill Section ending */
