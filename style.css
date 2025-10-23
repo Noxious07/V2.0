@@ -526,3 +526,102 @@ img {
 }
 
 /* Skill Section ending */
+
+#body-con {
+  background-image: url("assests/4880206.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+
+}
+
+.contact1 {
+  font-family: 'Fira+Sans+Condensed';
+  background: linear-gradient(to right, #e9ecef, #dee2e6);
+  margin-top: 150px;
+  margin-right: 50px;
+  box-shadow: 1px 1px 12px 2px rgba(29, 29, 49, 0.12);
+  height: 400px;
+  width: 850px;
+  position: relative;
+  float: right;
+}
+
+#bg img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 400px;
+  border-radius: 0;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  box-shadow: none;
+}
+
+#phn {
+  font-family: 'Fira+Sans+Condensed';
+  background-color: rgba(70, 20, 140, 0.9);
+  padding: 8px 130px 8px 25px;
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 0; */
+  justify-self: center;
+  margin-top: 100px;
+  margin-left: 380px;
+  color: white;
+  text-align: center;
+}
+
+
+#mail {
+  font-family: 'Fira+Sans+Condensed';
+  background-color: rgba(70, 20, 140, 0.9);
+  padding: 8px 40px 8px 24px;
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 0; */
+  justify-self: center;
+  margin-top: 150px;
+  margin-left: 376px;
+  color: white;
+  text-align: center;
+}
+
+#addr {
+  font-family: 'Fira+Sans+Condensed';
+  background-color: rgba(70, 20, 140, 0.9);
+  padding: 8px 25px 8px 25px;
+  position: absolute;
+  /* bottom: 0; */
+  /* right: 0; */
+  justify-self: center;
+  margin-top: 200px;
+  margin-left: 370px;
+  color: white;
+  text-align: center;
+}
+
+#gth {
+  margin-top: 100px;
+  position: absolute;
+}
+
+#gth h1 {
+  margin-left: 130px;
+  font-family: 'Lora';
+  font-size: 40px;
+}
+
+#he {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 10px;
+  font-family: 'Lora';
+}
+
+#body-con {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 100px;
+}
