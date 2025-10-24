@@ -732,6 +732,10 @@ form {
   cursor: pointer;
   background: transparent;
   position: relative;
-  margin-left: 280px;
+  margin-left: 300px;
 }
 
+#bt:hover{
+  color:rgba(70, 20, 140, 0.9);
+  transition: 0.15s;
+}
