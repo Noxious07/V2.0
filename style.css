@@ -689,3 +689,49 @@ form {
   min-height: 100px;
   overflow: hidden;
 }
+
+#my {
+  margin-top: 25px;
+}
+
+#mym{
+  color: #071221;
+  position: relative;
+  font-family: 'Lora';
+  font-size: 18px;
+  border: none;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+#mym-txt{
+  color: #1f1f3d;
+  font-family: 'Lora';
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 180px;
+}
+
+#bt{
+  /* background-color: #fca311; */
+  font-family: 'Lora';
+  color: #687583;
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  font-size: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  margin-left: 280px;
+}
+
