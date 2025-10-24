@@ -625,3 +625,67 @@ img {
   min-height: 100vh;
   padding-top: 100px;
 }
+
+form {
+  position: absolute;
+  margin-top: 210px;
+  justify-self: center;
+  margin-left: 110px;
+}
+
+#fname {
+  color: #071221;
+  font-family: 'Lora';
+  font-size: 16px;
+  border: none;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+#fname-txt {
+  font-family: 'Lora';
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+#shrt {
+  color: #071221;
+  position: relative;
+  margin-top: 30px;
+  font-family: 'Lora';
+  font-size: 16px;
+  border: none;
+  margin-right: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+#shrt-dis {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+  background: transparent;
+  font-family: 'Lora';
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  border: none;
+  margin-top: 20px;
+  padding-top: 5px;
+  outline: none;
+  border-bottom: 1px solid grey;  /* takes 30% of viewport width */
+  width: 350px;
+  display: block;
+  resize: none;
+  min-height: 100px;
+  overflow: hidden;
+}
