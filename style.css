@@ -626,7 +626,7 @@ img {
   padding-top: 100px;
 }
 
-form {
+.contact-form {
   position: absolute;
   margin-top: 210px;
   justify-self: center;

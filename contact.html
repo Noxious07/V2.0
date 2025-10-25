@@ -16,6 +16,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "9kIt6nqKLF_iUbHu-",
+      });
+    })();
+  </script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -51,24 +61,24 @@
       <div id="addr">Beside Ignited School Satna MP</div>
     </div>
 
-    <form class="form">
+    <form class="contact-form">
       <label id="fname">Hello there, my name is </label>
-      <input type="text" id="fname-txt" name="fname" placeholder="your name here."><br>
-      <div id="shrt"> 
-        <label id="shrt"> and i'm looking for a team to help me with</label> 
+      <input type="text" id="fname-txt" name="name" placeholder="your name here."><br>
+      <div id="shrt">
+        <label id="shrt"> and i'm looking for a team to help me with</label>
       </div>
       <!-- <input type="text" id="shrt-dis" name="shrt" placeholder="short project description..."> -->
       <div>
-        <textarea id="shrt-dis" placeholder="write a short discription .."></textarea>
+        <textarea id="shrt-dis" name="message" placeholder="write a short discription .."></textarea>
       </div>
       <div id="my">
         <label id="mym">You can reach me at</label>
-        <input type="text" id="mym-txt" name="mym" placeholder="Your email address.">
+        <input type="text" id="mym-txt" name="email" placeholder="Your email address.">
       </div>
       <div>
-          <input id="bt" type="submit" value="Send">
+        <input id="bt" type="button" value="Send" onclick="sendEmail()">
       </div>
-       
+
     </form>
 
     </div>
