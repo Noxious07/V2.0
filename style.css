@@ -13,31 +13,25 @@
 /* Header Styles */
 
 .header {
-  background-color: #1f1f3d;
+  background-color: #11112f71;
   justify-content: space-between;
   display: flex;
   align-items: center;
-  padding: 18px;
+  padding: 14px;
   text-align: right;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-}
-
-/* logo area */
-
-.logo {
-  display: flex;
-  align-items: center;
+  
 }
 
 /* logo image */
 
 .logo img {
-  display: block;
-  width: 50px;
-  height: 50px;
+  display: flex;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
 }
 
@@ -56,6 +50,7 @@ nav a {
   font-weight: 600;
   padding: 8px 15px;
   transition: background 0.3s ease;
+
 }
 
 /* Hover background */
@@ -86,40 +81,130 @@ nav a:hover::after {
 
 /* body */
 body {
-  background-color: #0f0f1e;
+  background-color: #070724;
   color: white;
   height: 100%;
+  width: 100%;
 }
 
-#hero {
-  display: flex;
-  flex-direction: column;
+
+.hero {
+  position: relative;
+  top: 20em;
   align-items: center;
-  justify-content: center;
-  /* min-height: 90vh; */
   text-align: center;
-  font-size: 30px;
-  margin-top: 86px;
-  padding-top: 40px;
-  margin-top: 250px;
+  justify-self: center;
 }
 
+.hero h1,span{
+  font-size: 60px;
+  font-family: 'Spectral', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero span{
+  color: #fca311;
+}
+
+.hero h3{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 13px;
+}
 /* name heading  */
-#hero h1,
+/* #hero h1,
 span {
   font-family: 'Spectral';
-}
+} */
 
 /* line */
-#lne {
+/* #lne {
   margin: 30px;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, sans-serif;
-}
+} */
 
 /* Social media icons */
 
+.social-media{
+  display: flex;
+  position: relative;
+  justify-self: center;
+  gap: 35px;
+  top: 25em;
+}
+
+.social-media img{
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  }
+
+  #gmail img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  background: #141428;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
+}
+
+#insta img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  background: #141428;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
+}
+
+#Git img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  background: #141428;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
+}
+
+#twitter img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  background: #141428;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
+}
+
+#linkedin img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+  border-radius: 50%;
+  background: #141428;
+  padding: 3px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6), 0 0 10px rgba(255, 255, 255, 0.05) inset;
+}
+
+#gmail img:hover,
+#insta img:hover,
+#Git img:hover,
+#twitter img:hover,
+#linkedin img:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(0, 168, 232, 0.3);
+  color: #00A8E8;
+/* 
 #gmail,
 #insta,
 #Git,
@@ -128,9 +213,9 @@ span {
   display: inline-block;
   margin: 0 10px;
   margin-top: 80px;
-}
+} */
 
-.social-media {
+/* .social-media {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,83 +288,79 @@ span {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7),
     0 0 15px rgba(0, 168, 232, 0.3);
   color: #00A8E8;
-}
+} */
 
 /* Home Page ending  */
 
 /* About Page starting  */
 
+#body-about {
+  background-color: #0f0f1e;
+  color: white;
+  height: 100%;
+}
+
 .about-section {
   position: relative;
-  top: 100px;
+  bottom: %;
 }
 
 #abt {
   font-family: 'Open+Sans';
   color: #071221;
   font-size: 30px;
-  justify-self: center;
-  margin-top: 40px;
+  margin-left: 350px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
   font-weight: bold;
-  text-shadow: 0.2px 0 1px#2c19b9 ;
+  top: 60px;
 }
 
 .statement {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: relative;
-  text-align: right;
-  max-width: 600px;
-  min-height: 270px;
-  width: 600px;
-  height: 270px;
-  display: inline-block;
-  float: right;
-  background: linear-gradient(to top, #000000, rgb(13, 12, 77, 0.6));
-  padding: 20px 30px 20px 30px;
-  margin-top: 120px;
-  margin-right: 60px;
-  border-radius: 20px;
+  position: absolute;
+  font-size: 16px;
+  right: 30px;
+  text-align: end;
+  color: white;
+  top: 230px;
+  left: 800px;
+  padding: 20px 20px 20px 32px;
   box-shadow: 2px 2px 5px rgb(52, 50, 199, 0.2),
     -2px -2px 5px rgba(0, 0, 0, 0.5);
-  font-size: 16px;
-  word-spacing: 1px;
-  color: #e9ecef;
+  border-radius: 20px;
+  background: linear-gradient(to top, #000000, rgb(13, 12, 77, 0.6));
 }
 
-.statement:hover{
-  cursor: pointer;
-  opacity: 1;
-  /* transform: translateY(-2px); */
-  box-shadow: 0px 10px 20px rgba(79, 70, 229, 0.3);
-}
-#cu,
-#mg,
-#on {
-  margin-top: 15px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.statement p {
+  font-family: 'Spectral';
 }
 
-.statement strong {
+.statement p strong {
+  font-family: 'Spectral';
   color: #fca311;
-  font-family: 'Open+Sans';
-}
-#img,img{
-   width: 290px;
-   height:420px; 
-   margin-top: 20px;
-   position: absolute;
-   display: block;
-   justify-self: center;
-   margin-right: 380px;
-   border-radius: 20px;
-   object-fit: cover;
+  font-weight: bold;
 }
 
-#d{
-     box-shadow: 2px 2px 5px rgb(52, 50, 199, 0.2),
+
+.image {
+  margin-top: 103px;
+  margin-left: 160px;
+  right: 0;
+
+}
+
+img {
+  width: 350px;
+  height: 450px;
+  float: left;
+  border-radius: 15px;
+  justify-content: center;
+  box-shadow: 2px 2px 5px rgb(52, 50, 199, 0.2),
     -2px -2px 5px rgba(0, 0, 0, 0.5);
-     object-fit: cover;
-     /* transition: transform 0.3s ease; */
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 /* About Page ending  */
@@ -750,3 +831,7 @@ span {
   color: rgba(70, 20, 140, 0.9);
   transition: 0.15s;
 }
+
+/* Its a test code  */
+
+/* Its a test code  */
