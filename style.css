@@ -745,10 +745,9 @@ span {
   nav {
     position: relative;
     display: flex;
-    gap: 1px;
+    gap: 2px;
     justify-content: center;
     top: 0;
-    left: -1em;
    }
 
   nav a {
