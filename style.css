@@ -782,14 +782,20 @@ span {
   #abt{
     top: 4em;
     left: 10px
+    position: relative;
+  }
+
+  #abt h2{
+    align-items: center;
+    justify-self: center;
   }
    
   #photuu{
     display: flex;
     position: relative;
-    top: 10px;  
-    left: -8em;
-    justify-content: center;
+    align-items: center;
+    left: -5em;
+    justify-self: center;
     z-index: 999;
   }
 
