@@ -717,7 +717,7 @@ span {
   transition: 0.15s;
 }
 
-@media screen and (max-width: 431px) {
+@media screen and ( min-width: 300px )and (max-width: 431px) {
  
   * {
     margin: 0;
@@ -787,19 +787,25 @@ span {
   #photuu{
     display: flex;
     position: relative;
-    left: -141px;
-    top: -2em;
+    top: 10px;  
+    left: -8em;
+    justify-content: center;
+    z-index: 999;
   }
 
   #statement{
-    top: 11em;
-    position: relative;
-    padding-top: 15px;
-    height: 30em;
-    max-width: 20em;
-    left: -1.8em;
+  top: 13em;
+  justify-self: center;
+  position: relative;
+   left: -0.5em;
+  height: 30em;
+  width: 20em;
+  padding: 10px 14px;
+  bottom: 10em;
+  }
+
+  #statement div{
     text-align: center;
-    margin-bottom: 30px;
   }
 
 
