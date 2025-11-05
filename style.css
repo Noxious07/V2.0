@@ -727,7 +727,7 @@ span {
   }
 
   body {
-    background-color: white;
+    background-color: #1f2735;
     width: 100%;
     height: 100vh;
   }
@@ -738,8 +738,8 @@ span {
   }
 
   .header {
-    background-color: rgba(123, 66, 202, 0.5);
-    border: #4b7586 solid 1px;
+    background-color: #1c232b;
+    /* border: #c2e0ec solid 1px; */
   }
 
   nav {
@@ -748,9 +748,11 @@ span {
     gap: 2px;
     justify-content: center;
     top: 0;
+  
    }
 
   nav a {
+    color: rgb(249, 180, 5);
     font-size: 16px;
     position: relative;
     display: flex;
@@ -758,17 +760,21 @@ span {
     text-align: center;
   }
 
+  nav a:hover{
+    color: #000000;
+  }
+
   .logo img {
     display: none;
   } 
 
   .hero {
-    color: rgb(71, 65, 155);
+    color: rgb(249, 180, 5);
     top: 14em;
   }
 
   .hero span {
-    color: rgb(180, 46, 180);
+    color: white;
   }
 
   .social-media {
@@ -786,8 +792,7 @@ span {
   }
 
   #abt h2{
-    align-items: center;
-    justify-self: center;
+    text-align: center;
   }
    
   #photuu{
