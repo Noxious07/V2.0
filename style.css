@@ -726,7 +726,7 @@ span {
   .header {
     background-color: #346f44;
     width: 100vw;
-    height: 7vh;
+    height: 8vh;
     position: fixed;
     z-index: 999999;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -744,7 +744,7 @@ span {
   }
 
   nav a {
-    top: 0.5em;
+    top: 0.2em;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FEF3E2;
