@@ -717,112 +717,128 @@ span {
   transition: 0.15s;
 }
 
-@media screen and ( min-width: 300px )and (max-width: 431px) {
- 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+@media (min-width: 320px) and (max-width: 768px) {
 
   body {
-    background-color: #1f2735;
-    /* width: 100;
-    height: 100vh; */
-  }
-
-
-  .logo{
-    display: none;
+    background-color: #16311d;
   }
 
   .header {
-    background-color: #1c232b;
-    /* border: #c2e0ec solid 1px; */
+    background-color: #346f44;
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    z-index: 999999;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
   nav {
-    position: relative;
     display: flex;
-    gap: 12px;
     justify-content: center;
-    top: 0;
-  
-   }
+    display: flexbox;
+    gap: 2px;
+  }
 
   nav a {
-    color: rgb(249, 180, 5);
-    font-size: 16px;
+    top: 0.5em;
     position: relative;
-    justify-content:right;
-    align-items: center;
-    display: flex;
-    left: 1.6em;
-    /* justify-self: center;
-    text-align: center; */
-    /* background-color: #00A8E8; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FEF3E2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
   }
 
-  nav a:hover{
-    color: #000000;
+  nav a:hover {
+    color: white;
+    background: #ffa617;
+    border-radius: 6px;
   }
 
-  .logo img {
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    bottom: -8px;
+    width: 0;
+    height: 3px;
+    background: #fca311;
+    transition: all 0.3s ease;
+  }
+
+  nav a:hover::after {
+    left: 0;
+    width: 100%;
+  }
+
+  .logo {
     display: none;
-  } 
+  }
 
   .hero {
-    color: rgb(249, 180, 5);
-    top: 14em;
+    position: relative;
+    justify-self: center;
+    top: 15em;
+    height: 5em;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 2.5px;
+    font-family: 'Spectral', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  .hero h1 {
+    color: #FEF3E2;
+    font-size: 60px;
   }
 
   .hero span {
-    color: white;
+    font-size: 60px;
+    font-family: 'Spectral', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FAB12F;
+    text-shadow: 0 0 2px #FAB12F;
+  }
+
+
+  .hero h3 {
+    color: #EFE9E3;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
   }
 
   .social-media {
-    gap: 20px;
-    top: 19em;
     display: flex;
+    gap: 25px;
     position: relative;
     justify-content: center;
-  }
-
-  #abt{
-    top: 4em;
-    left: 10px;
-    background-color: #2f2db4;
-  }
-
-  #abt h2{
-    position: relative;
-    justify-self: center;
     align-items: center;
-
-  }
-   
-  #photuu{
-    position: relative;
-    align-items: center;
-    left: -5em;
-    justify-self: center;
-    z-index: 999;
+    align-self: center;
+    top: 30em;
+    left: 0;
   }
 
-  #statement{
-  top: 13em;
-  justify-self: center;
-  position: relative;
-   left:  2.9em;
-  max-height: 30em;
-  width: 28em;
-  padding: 10px 14px;
+  .social-media img {
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 50%;
+    box-shadow: 0 0 14px#000000;
   }
 
-  #statement div{
-    text-align: center;
+  #gmail img:hover,
+  #insta img:hover,
+  #Git img:hover,
+  #twitter img:hover,
+  #linkedin img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7),
+      0 0 15px rgba(27, 92, 118, 0.3);
+    color: #000608;
+    transition: 0.15s;
   }
-
-
 }
